@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
+        <div class="sidebar bold">
             <div class="logo">
                 <img src="./assets/icons/view-dashboard.svg" alt="Dashboard Logo">
                 <h1 class="logo-name">Dashboard</h1>
@@ -30,24 +30,30 @@
         </div>
         <div class="header">
             <div class="header-search">
-                <img src="./assets/icons/magnify.svg" alt="Seach Button">
-                <input type="text">
-                <img src="./assets/icons/bell-ring-outline.svg" alt="Notifications">
-                <img src="./assets/images/2260fca4-6a7a-41ec-9c57-d451a8f45aaf.jpeg" alt="Snorlax">
-                <h2>Morgan Oakley</h2>
+                <div class="left">
+                    <img src="./assets/icons/magnify.svg" alt="Seach Button">
+                    <input type="text">
+                </div>
+                <div class="right">
+                    <img src="./assets/icons/bell-ring-outline.svg" alt="Notifications">
+                    <img src="./assets/images/2260fca4-6a7a-41ec-9c57-d451a8f45aaf.jpeg" alt="Snorlax" class="round">
+                    <h2>Morgan Oakley</h2>
+                </div>
             </div>
             <div class="header-profile">
                 <div class="header-name">
-                    <img src="./assets/images/2260fca4-6a7a-41ec-9c57-d451a8f45aaf.jpeg" alt="Snorlax">
+                    <img src="./assets/images/2260fca4-6a7a-41ec-9c57-d451a8f45aaf.jpeg" alt="Snorlax" class="round">
                     <div class="name-greeting">
                         <p>Hi there,</p>
                         <h2>Morgan Oakley (@morgan)</h2>
                     </div>
                 </div>
                 <div class="header-buttons">
-                    <button class="header-button">New</button>
-                    <button class="header-button">Upload</button>
-                    <button class="header-button">Share</button>
+                    <ul>
+                        <li><button class="header-button">New</button></li>
+                        <li><button class="header-button">Upload</button></li>
+                        <li><button class="header-button">Share</button></li>
+                    </ul>
                 </div>
             </div>
         </div>
